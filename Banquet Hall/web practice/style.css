@@ -1,0 +1,96 @@
+/* Your existing CSS code */
+
+/* Add media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .menu-item,
+    .menu-item1,
+    .menu-item2 {
+        max-width: 300px; /* Adjust the max-width for smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-item,
+    .menu-item1,
+    .menu-item2 .item-details,
+    .menu-item1 .item-controls,
+    .menu-item2 .item-details,
+    .menu-item2 .item-controls {
+        text-align: center; /* Center align text on smaller screens */
+    }
+}
+
+/* Add media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .booking-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+    }
+
+    .step {
+        margin-bottom: 20px; /* Add margin between steps on smaller screens */
+    }
+}
+
+/* Add media query for screens smaller than 992px */
+@media (max-width: 992px) {
+    .gallery-photo,
+    .gallery img {
+        max-width: 100%; /* Adjust image width for smaller screens */
+        height: auto;
+    }
+}
+
+/* Add media query for screens smaller than 1200px */
+@media (max-width: 1200px) {
+    .right-image {
+        margin: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .right-image img {
+        max-width: 80%; /* Adjust image width for smaller screens */
+    }
+
+    .left-feature,
+    .right-feature {
+        flex: 1 1 100%; /* Adjust flex properties for smaller screens */
+        margin-bottom: 20px;
+    }
+}
+
+/* Add media query for screens smaller than 1400px */
+@media (max-width: 1400px) {
+    .contact-form,
+    .contact-info {
+        flex-direction: column; /* Stack contact form and info vertically */
+    }
+
+    .contact-info {
+        margin-top: 20px; /* Add margin between contact form and info */
+    }
+
+    .contact-info,
+    .social-media ul {
+        justify-content: center; /* Center align contact info and social media */
+    }
+
+    .person-info {
+        text-align: center; /* Center align person info */
+    }
+}
+
+/* Add media query for screens smaller than 1600px */
+@media (max-width: 1600px) {
+    .booking-form-container,
+    .facility-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+    }
+
+    .facility-item {
+        width: 200px; /* Adjust facility item width for smaller screens */
+        height: 200px;
+    }
+}
+
+/* Your existing CSS code */
